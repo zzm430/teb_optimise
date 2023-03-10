@@ -1,0 +1,4 @@
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/src/teb_local_planner_ros.cpp:[m[K In member function ‘[01m[Kvirtual uint32_t teb_local_planner::TebLocalPlannerROS::computeVelocityCommands(const PoseStamped&, const TwistStamped&, geometry_msgs::TwistStamped&, std::string&)[m[K’:
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/src/teb_local_planner_ros.cpp:507:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  507 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

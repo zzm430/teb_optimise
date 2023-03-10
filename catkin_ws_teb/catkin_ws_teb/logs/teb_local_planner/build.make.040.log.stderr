@@ -1,0 +1,7 @@
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/src/optimal_planner.cpp:[m[K In member function ‘[01m[Kvoid teb_local_planner::TebOptimalPlanner::setVelocityStart(const Twist&)[m[K’:
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/src/optimal_planner.cpp:249:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_velocity[m[K’ was not declared in this scope
+  249 |     vel_start_.second.angular.z = [01;31m[Kstart_velocity[m[K;
+      |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [teb_local_planner/CMakeFiles/teb_local_planner.dir/build.make:95: teb_local_planner/CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:651: teb_local_planner/CMakeFiles/teb_local_planner.dir/all] Error 2
+make: *** [Makefile:160: all] Error 2

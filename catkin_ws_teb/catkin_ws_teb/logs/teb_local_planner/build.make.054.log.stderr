@@ -1,0 +1,42 @@
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/src/teb_local_planner_ros.cpp:[m[K In member function ‘[01m[Kvirtual uint32_t teb_local_planner::TebLocalPlannerROS::computeVelocityCommands(const PoseStamped&, const TwistStamped&, geometry_msgs::TwistStamped&, std::string&)[m[K’:
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/src/teb_local_planner_ros.cpp:362:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kteb_local_planner::PoseSE2::PoseSE2(__gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >, geometry_msgs::PoseStamped_<std::allocator<void> > >::value_type&)[m[K’
+  362 |   PoseSE2 start_goal(transformed_plan.front()[01;31m[K)[m[K;
+      |                                              [01;31m[K^[m[K
+In file included from [01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/g2o_types/vertex_pose.h:52[m[K,
+                 from [01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/timed_elastic_band.h:55[m[K,
+                 from [01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/optimal_planner.h:48[m[K,
+                 from [01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:53[m[K,
+                 from [01m[K/home/metoak/catkin_ws/src/teb_local_planner/src/teb_local_planner_ros.cpp:39[m[K:
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:122:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::PoseSE2::PoseSE2(const teb_local_planner::PoseSE2&)[m[K’
+  122 |   [01;36m[KPoseSE2[m[K(const PoseSE2& pose)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:122:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >, geometry_msgs::PoseStamped_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst teb_local_planner::PoseSE2&[m[K’
+  122 |   PoseSE2([01;36m[Kconst PoseSE2& pose[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:111:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::PoseSE2::PoseSE2(const Pose&)[m[K’
+  111 |   [01;36m[KPoseSE2[m[K(const tf::Pose& pose)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:111:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >, geometry_msgs::PoseStamped_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst tf::Transform&[m[K’}
+  111 |   PoseSE2([01;36m[Kconst tf::Pose& pose[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:100:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::PoseSE2::PoseSE2(const Pose&)[m[K’
+  100 |   [01;36m[KPoseSE2[m[K(const geometry_msgs::Pose& pose)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:100:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > >, geometry_msgs::PoseStamped_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::Pose_<std::allocator<void> >&[m[K’}
+  100 |   PoseSE2([01;36m[Kconst geometry_msgs::Pose& pose[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:89:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::PoseSE2::PoseSE2(double, double, double)[m[K’
+   89 |   [01;36m[KPoseSE2[m[K(double x, double y, double theta)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:89:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:77:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::PoseSE2::PoseSE2(const Eigen::Ref<const Eigen::Matrix<double, 2, 1> >&, double)[m[K’
+   77 |   [01;36m[KPoseSE2[m[K(const Eigen::Ref<const Eigen::Vector2d>& position, double theta)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:77:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:67:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kteb_local_planner::PoseSE2::PoseSE2()[m[K’
+   67 |   [01;36m[KPoseSE2[m[K()
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/home/metoak/catkin_ws/src/teb_local_planner/include/teb_local_planner/pose_se2.h:67:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [teb_local_planner/CMakeFiles/teb_local_planner.dir/build.make:173: teb_local_planner/CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:651: teb_local_planner/CMakeFiles/teb_local_planner.dir/all] Error 2
+make: *** [Makefile:160: all] Error 2

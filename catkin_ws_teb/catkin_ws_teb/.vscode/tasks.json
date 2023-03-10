@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "catkin_make",
+			"args": [
+				"--workspace",
+				"/home/metoak/catkin_ws",
+				"--catkin-make-args",
+				"run_tests"
+			],
+			"problemMatcher": [
+				"$catkin-gcc"
+			],
+			"group": "test",
+			"label": "catkin: run_tests"
+		}
+	]
+}
